@@ -9,6 +9,6 @@
     return sum / numbers.Length;
 }
 
-int[] numbers = { 1, 2, 3, 4 };
+int[] numbers = { 5, 6, 7, 8 };
 double average = GetAverage(numbers);
 Console.WriteLine(average);
