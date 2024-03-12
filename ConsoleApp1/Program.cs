@@ -1,14 +1,14 @@
-﻿static double GetAverage(int[] numbers)
+﻿static double CalculateAverage(int[] numbers)
 {
     double sum = 0.0;
-    foreach (var number in numbers)
+    foreach (var num in numbers) 
     {
-        sum += number;
+        sum += num; 
     }
 
     return sum / numbers.Length;
 }
 
-int[] numbers = { 10, 59, 68, 51 };
-double average = GetAverage(numbers);
+int[] numbers = { 40, 82, 96, 50 };
+double average = CalculateAverage(numbers);
 Console.WriteLine(average);
