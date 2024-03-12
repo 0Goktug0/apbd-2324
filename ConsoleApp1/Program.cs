@@ -3,7 +3,7 @@
     double sum = 0.0;
     foreach (var num in numbers) 
     {
-        sum += num; 
+        sum -= num; 
     }
 
     return sum / numbers.Length;
